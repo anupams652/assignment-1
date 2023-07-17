@@ -24,7 +24,6 @@ body{
     align-items: center;
 }
 .logo{
-   
     padding-left: 40px;
     padding-top: 30px;
 }
@@ -34,6 +33,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
 }
 .container nav a {
     text-decoration: none;
@@ -41,27 +41,45 @@ body{
     font-size: 30px;
     cursor: pointer;
     font-weight: 400;
-    
+   
 }
+
 .btn{
-    margin: 20px;
-    padding: 50px;
+    margin: 50px;
 }
 .container button{
-    
-    text-align: center;
+   padding: 0px 20px;
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
     background-color: #ff505f;
-    /* padding: 40px; */
-    border: none;
-    margin: 10px;
+    border-radius: 5px;
+    border-color: crimson;
+    cursor: pointer;
 }
-main{
-    
-    /* align-items: center; */
-    font-size: 40px;
+
+section{
+    font-size: 45px;
     color: #ffc233;
+    padding-left: 300px;
+    margin-top: 40px;
     
 }
+.button-large {
+    background: #ff505f;
+    border-radius: 5px;
+border-color: crimson;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffffff;
+    
+    padding: 24px 40px;
+    margin-top: 64px;
+    cursor: pointer;
+}
+.bottom {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+  }
 
